@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>break point</title>
+
+
+    <style>
+
+         body{
+            margin: 0;
+            padding: 0;
+         font-family:Arial, Helvetica, sans-serif ;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         height: 100vh;
+         }
+        .responsive-div{
+            width: 100px;
+            max-width: 1200px;
+            padding: 20px;
+            color: aliceblue;
+            font-size: 24px;
+            background-color: #240f90;
+        }
+
+        @media (max-width:c600px){
+           .responsive-div{
+            background-color: #69d053;
+
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="responsive-div">
+
+        <p> this div change color based on screen size</p>
+    </div>
+</body>
+</html>
